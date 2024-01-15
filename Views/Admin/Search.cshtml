@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Health_Insurance.Models.Subscription>
+
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+<h1>Search</h1>
+            <div class="col-sm-12 col-xl-6">
+
+                  <div class="bg-secondary rounded h-100 p-4">
+
+                <div class="input-group mb-3">
+                    <form asp-action="Search" method="post">
+                        <input type="date" id="startDate" name="startDate" class="form-control" placeholder="First Date">
+                        <input type="date" id="endDate" name="endDate" class="form-control" placeholder="Final Date">
+                         <button type="submit" class="btn btn-primary">submit</button>
+                    </form>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-secondary text-center rounded p-4">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h6 class="mb-0">Search</h6>
+            <a href="">Show All</a>
+        </div>
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+
+                <thead>
+        <tr>
+         <th>name</th>
+        <th>Date</th>
+        <th>Duration</th>
+        <th>Amount</th>
+        <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserAccount.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubscriptionDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubscriptionDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubscriptionAmount)
+            </td>
+            <td>
+              @Html.DisplayFor(modelItem => item.SubscriptionsStatus)
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+        </div>
+    </div>
+</div>

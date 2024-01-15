@@ -1,0 +1,22 @@
+﻿@page
+@{
+    ViewData["Title"] = "Send Email as PDF";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post" asp-action="SendEmailAsPdf">
+    <div class="form-group">
+        <label for="toEmail">Recipient Email:</label>
+        <input type="email" class="form-control" id="toEmail" name="toEmail" for="ToEmail" required>
+    </div>
+    <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" class="form-control" id="subject" name="subject" for="Subject" required>
+    </div>
+    <div class="form-group">
+        <label for="messageText">Message Text:</label>
+        <textarea class="form-control" id="messageText" name="messageText" for="MessageText" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send Email</button>
+</form>

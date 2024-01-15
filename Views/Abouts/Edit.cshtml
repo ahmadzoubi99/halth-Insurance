@@ -1,0 +1,96 @@
+﻿@model Health_Insurance.Models.About
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "AdminLayout";
+
+}
+
+<h1>Edit</h1>
+
+<hr />
+
+
+
+        <div class="container-fluid pt-4 px-4">
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="bg-secondary rounded h-100 p-4">
+
+                        <div class="table-responsive">
+                            <h1>About page</h1>
+
+                            <table class="table">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Text1" class="control-label"></label>
+                <input asp-for="Text1" class="form-control" />
+                <span asp-validation-for="Text1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Text2" class="control-label"></label>
+                <input asp-for="Text2" class="form-control" />
+                <span asp-validation-for="Text2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Text3" class="control-label"></label>
+                <input asp-for="Text3" class="form-control" />
+                <span asp-validation-for="Text3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Text4" class="control-label"></label>
+                <input asp-for="Text4" class="form-control" />
+                <span asp-validation-for="Text4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Text5" class="control-label"></label>
+                <input asp-for="Text5" class="form-control" />
+                <span asp-validation-for="Text5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile1" class="control-label"></label>
+                <input asp-for="ImageFile1" class="form-control" />
+                <span asp-validation-for="ImageFile1" class="text-danger"></span>
+            </div>
+            <div class="form-group" hidden>
+                <label asp-for="Image1" class="control-label"></label>
+                <input asp-for="Image1" class="form-control" />
+                <span asp-validation-for="Image1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile2" class="control-label"></label>
+                <input asp-for="ImageFile2" class="form-control" />
+                <span asp-validation-for="ImageFile2" class="text-danger"></span>
+            </div>
+            <div class="form-group" hidden>
+                <label asp-for="Image2" class="control-label"></label>
+                <input asp-for="Image2" class="form-control" />
+                <span asp-validation-for="Image2" class="text-danger"></span>
+            </div>
+            <div class="form-group" >
+                <label asp-for="ImageFile3" class="control-label"></label>
+                <input asp-for="ImageFile3" class="form-control" />
+                <span asp-validation-for="ImageFile3" class="text-danger"></span>
+            </div>
+            <div class="form-group" hidden>
+                <label asp-for="Image3" class="control-label"></label>
+                <input asp-for="Image3" class="form-control" />
+                <span asp-validation-for="Image3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+        </table>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

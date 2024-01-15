@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Health_Insurance.Models.Useraccount>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "AdminLayout";
+        
+}
+
+@* 
+<p>
+    <a asp-action="Create">Create New</a>
+</p> *@
+
+
+<!-- Table Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                
+                <div class="table-responsive">
+                    <h1>Users Information</h1>
+
+                    <table class="table">
+                        <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+        @*     <th>
+                @Html.DisplayNameFor(model => model.Username)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Passwd)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+               Image
+            </th> 
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+       @*      <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passwd)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+             <td>
+
+             <img src="@Url.Content("~/Images/" + item.Imagepath )" asp-append-version="true" width="100" height="100" />
+                                    </td>
+                                    <td>
+@*                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+ *@                <a asp-action="Details" asp-route-id="@item.Id">Details</a> @* |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> *@
+            </td>
+                     
+        </tr>
+}
+    </tbody>
+</table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

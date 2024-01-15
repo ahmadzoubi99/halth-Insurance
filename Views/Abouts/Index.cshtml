@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Health_Insurance.Models.About>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "AdminLayout";
+
+}
+
+
+
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-secondary rounded h-100 p-4">
+
+                <div class="table-responsive">
+                    <h1>About Page</h1>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Image1)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Image2)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Image3)
+                                </th>
+
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Text1)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Text2)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Text3)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Text4)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Text5)
+                                </th>
+
+                         
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="@Url.Content("~/Images/" + item.Image1 )" asp-append-version="true" width="100" height="100" />
+                                    </td>
+                                    <td>
+                                        <img src="@Url.Content("~/Images/" + item.Image2 )" asp-append-version="true" width="100" height="100" />
+                                    </td>
+                                    <td>
+                                        <img src="@Url.Content("~/Images/" + item.Image3 )" asp-append-version="true" width="100" height="100" />
+                                    </td>
+        
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Text1)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Text2)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Text3)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Text4)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Text5)
+                                    </td>
+
+
+                                    <td>
+                                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> 
+
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

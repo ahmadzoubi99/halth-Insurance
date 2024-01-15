@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Health_Insurance.Models.Subscription>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "AdminLayout";
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-secondary rounded h-100 p-4">
+
+                <div class="table-responsive">
+                    <h1>Subscreption</h1>
+
+                    <table class="table">
+    <thead>
+        <tr>
+            <th>
+                name customer
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubscriptionsStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubscriptionDuration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubscriptionAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserAccount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserAccount.FullName)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubscriptionDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubscriptionsStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubscriptionDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubscriptionAmount)
+            </td> 
+
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>

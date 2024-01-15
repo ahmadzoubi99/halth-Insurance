@@ -1,0 +1,317 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Health_Insurance
+build_property.RootNamespace = Health_Insurance
+build_property.ProjectDir = C:\Users\Ahmad\Desktop\OOB\Health_Insurance_backup1006\Health_Insurance_backup\Health_Insurance_backup\Health_Insurance\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ahmad\Desktop\OOB\Health_Insurance_backup1006\Health_Insurance_backup\Health_Insurance_backup\Health_Insurance
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Abouts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Abouts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Abouts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Abouts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Abouts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Admin/Beneficiaries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmVuZWZpY2lhcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Admin/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Admin/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Admin/SendEmailAsPdf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VuZEVtYWlsQXNQZGYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Banks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Banks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Banks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Banks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Banks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Beneficiaries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Beneficiaries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Beneficiaries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Beneficiaries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Beneficiaries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/ContactUs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/ContactUs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/ContactUs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/ContactUs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/ContactUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/EdirProfilee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpclByb2ZpbGVlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/EdirProfilee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpclByb2ZpbGVlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/EdirProfilee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpclByb2ZpbGVlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/EdirProfilee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpclByb2ZpbGVlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/EdirProfilee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpclByb2ZpbGVlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/EditProfile/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdFByb2ZpbGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Email/SendEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcU2VuZEVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Homes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Homes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Homes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Homes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Homes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Home/ContatUS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRVUy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Home/testimonials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0ZXN0aW1vbmlhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Roles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Roles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Shared/HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWVMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Shared/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Subscriptions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Subscriptions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Subscriptions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Subscriptions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Subscriptions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Testimonials/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Testimonials/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Testimonials/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Testimonials/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Testimonials/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Useraccounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcmFjY291bnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Useraccounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcmFjY291bnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Useraccounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcmFjY291bnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Useraccounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcmFjY291bnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Useraccounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcmFjY291bnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/User/Beneficiaries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCZW5lZmljaWFyaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/User/HomeUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxIb21lVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/User/PayforSubscroption.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQYXlmb3JTdWJzY3JvcHRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmad/Desktop/OOB/Health_Insurance_backup1006/Health_Insurance_backup/Health_Insurance_backup/Health_Insurance/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2jac3wqwhl

@@ -1,0 +1,184 @@
+﻿@model Health_Insurance.Models.Useraccount
+
+@{
+    ViewData["Title"] = "Edit";
+    // string layout = ViewBag.Layout ?? "_Layout"; // Use "_Layout" as the default if ViewBag.Layout is null
+
+    Layout = @ViewBag.Layout;
+
+}
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+
+<div class="container bootstrap snippets bootdey">
+    <h1 class="text-primary">Edit Profile</h1>
+    <hr>
+    <div class="row">
+        <!-- left column -->
+        <div class="col-md-3">
+            <div class="text-center">
+                <img src="@Url.Content("~/Images/" + @ViewBag.ImagePath)" class="avatar img-circle img-thumbnail" width="200" height="200" alt="avatar asp-append-version="true" />
+                <h6>Upload a different photo...</h6>
+                <form method="post" asp-action="Edit" enctype="multipart/form-data" class="form-horizontal" role="form">
+                    <div class="form-group" hidden>
+                        <label asp-for="Imagepath" class="control-label"></label>
+                        <input asp-for="Imagepath" class="form-control" />
+                        <span asp-validation-for="Imagepath" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" >
+                        <label asp-for="ImageFile" class="control-label"></label>
+                        <input asp-for="ImageFile" class="form-control" />
+                        <span asp-validation-for="ImageFile" class="text-danger"></span>
+                    </div>
+                    <div hidden class="form-group">
+                        <label asp-for="FullName" class="col-lg-3 control-label">Full name:</label>
+                        <div class="col-lg-8">
+                            <input asp-for="FullName" id="FullName" class="form-control" type=" hidden">
+                        </div>
+                    </div>
+                    <div hidden class="form-group">
+                        <label asp-for="PhoneNumber" class="col-lg-3 control-label">Phone Number:</label>
+                        <div class="col-lg-8">
+                            <input asp-for="PhoneNumber" class="form-control" id="PhoneNumber" type="text">
+                        </div>
+                    </div>
+                    <div hidden class="form-group">
+                        <label asp-for="Email" class="col-lg-3 control-label">Email:</label>
+                        <div class="col-lg-8">
+                            <input asp-for="Email" id="Email" class="form-control" type="email">
+                        </div>
+                    </div>
+                    <div hidden class="form-group">
+                        <label asp-for="Username" class="col-lg-3 control-label">Username:</label>
+                        <div class="col-lg-8">
+                            <input asp-for="Username" id="Username" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div hidden class="form-group">
+                        <label asp-for="Passwd" class="col-lg-3 control-label">password:</label>
+                        <div class="col-lg-8">
+                            <input  asp-for="Passwd" id="Passwd" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div hidden class="form-group">
+                        <label class="col-lg-3 control-label">Time Zone:</label>
+                        <div class="col-lg-8">
+                            <div class="ui-select">
+                                <select asp-for="Address" id="Address" class="form-control">
+                                    <option value="Irbid">Irbid</option>
+                                    <option value="Amman">Amman</option>
+                                    <option value="Zarqa">Zarqa</option>
+                                    <option value="Aqaba">Aqaba</option>
+                                    <option value="as-Salt">as-Salt</option>
+                                    <option value="Madaba">Madaba</option>
+                                    <option value="al-Mafraq">al-Mafraq</option>
+                                    <option value="Jerash">Jerash</option>
+                                    <option value="Ma'an">Ma'an</option>
+                                    <option value="at-Tafila">at-Tafila</option>
+                                    <option value="al-Karak">al-Karak</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <input type="hidden" asp-for="Id" />
+                    <div hidden class="form-group">
+                        <label asp-for="RolesId" class="control-label"></label>
+                        <select asp-for="RolesId" class="form-control" asp-items="ViewBag.RolesId"></select>
+                        <span asp-validation-for="RolesId" class="text-danger"></span>
+                    </div>
+            
+              
+                    <div class="form-group">
+                        <input type="submit" value="edit profile picture" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- edit form column -->
+        <div class="col-md-9 personal-info">
+            <h3>Personal info</h3>
+
+            <form method="post" asp-action="Edit" enctype="multipart/form-data" class="form-horizontal" role="form">
+                <input hidden asp-for="Imagepath" id="FullName" class="form-control" type="text">
+                <input hidden asp-for="ImageFile" id="FullName" class="form-control" type="text">
+
+          
+                <div class="form-group">
+                    <label asp-for="FullName" style="color:white" class="col-lg-3 control-label "><h6>Full name:</h6></label>
+                    <div class="col-lg-8">
+                        <input asp-for="FullName" id="FullName"  class="form-control" type="text" >
+                    </div>
+                </div>
+              
+                <div class="form-group">
+                    <label asp-for="PhoneNumber" style="color:white" class="col-lg-3 control-label"><h6>Phone Number:</h6></label>
+                    <div class="col-lg-8">
+                        <input asp-for="PhoneNumber"  class="form-control" id="PhoneNumber" type="text">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" style="color:white" class="col-lg-3 control-label"><h6>Email:</h6></label>
+                    <div class="col-lg-8">
+                        <input asp-for="Email" id="Email" class="form-control" type="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Username" style="color:white" class="col-lg-3 control-label"><h6>Username:</h6></label>
+                    <div class="col-lg-8">
+                        <input asp-for="Username" id="Username" class="form-control" type="text" >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Passwd" style="color:white" class="col-lg-3 control-label"><h6>password:</h6></label>
+                    <div class="col-lg-8">
+                        <input type="text" asp-for="Passwd" id="Passwd" class="form-control" hidden>
+
+                        <input  asp-for="Passwd" id="Passwd" class="form-control" type="password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label style="color:white" class="col-lg-3 control-label">Cite</label>
+                    <div class="col-lg-8">
+                        <div class="ui-select">
+                            <select asp-for="Address" id="Address" class="form-control">
+                                <option value="Irbid">Irbid</option>
+                                <option value="Amman">Amman</option>
+                                <option value="Zarqa">Zarqa</option>
+                                <option value="Aqaba">Aqaba</option>
+                                <option value="as-Salt">as-Salt</option>
+                                <option value="Madaba">Madaba</option>
+                                <option value="al-Mafraq">al-Mafraq</option>
+                                <option value="Jerash">Jerash</option>
+                                <option value="Ma'an">Ma'an</option>
+                                <option value="at-Tafila">at-Tafila</option>
+                                <option value="al-Karak">al-Karak</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Edit" class="btn btn-primary" />
+                </div>
+                <p style="color:red" class="">@ViewBag.Error</p>
+
+                <input type="hidden" asp-for="Id" />
+                <div hidden class="form-group">
+                    <label asp-for="RolesId" class="control-label"></label>
+                    <select asp-for="RolesId" class="form-control" asp-items="ViewBag.RolesId"></select>
+                    <span asp-validation-for="RolesId" class="text-danger"></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<hr>
+

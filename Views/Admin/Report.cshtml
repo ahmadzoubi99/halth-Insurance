@@ -1,0 +1,134 @@
+﻿@model  Tuple<IEnumerable<Beneficiary>, IEnumerable<Subscription>, IEnumerable<Useraccount>, IEnumerable<JoinSubscription>>;
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "AdminLayout";
+}
+
+
+<link href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css" rel="stylesheet" />
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <h1>Report</h1>
+        <div class="col-sm-12 col-xl-6">
+
+            <div class="bg-secondary rounded h-100 p-4">
+
+                <div class="input-group mb-3">
+                    <form asp-action="Report" method="post">
+                        <input type="date" id="startDate" name="startDate" for="startDate" class="form-control" placeholder="First Date" aria-label="First Date">
+                        <input type="date" id="endDate" name="endDate" for="endDate" class="form-control" placeholder="Final Date" aria-label="Final Date">
+                        <button type="submit" class="btn btn-primary">submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-secondary text-center rounded p-4">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h6 class="mb-0">Report</h6>
+            <a href="">Show All</a>
+        </div>
+        <div class="table-responsive">
+            <table id="example1" class="table text-start align-middle table-bordered table-hover mb-0 ">
+                <thead>
+
+                    <tr class="text-white">
+                        <th scope="col">Name Customer</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Amount</th>
+                        <th scope="col">Beneficiaries</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Item4)
+                    {
+                        <tr>
+                            <td>@item.userAccounts.FullName</td>
+                            <td>@item.subscription.SubscriptionDate</td>
+                            <td>@item.subscription.SubscriptionsStatus</td>
+                            <td>$@item.subscription.SubscriptionAmount</td>
+                            <td><a asp-action="Beneficiaries" asp-route-id="@item.subscription.Id">Beneficiaries</a></td>
+
+
+                           @*  <td>
+                                <form method="post" asp-action="Accept">
+                                    <div class="form-group">
+                                        <input type="hidden" name="id" value="@item.subscription.Id" />
+                                        <input type="hidden" name="SubscriptionDuration" value="@item.subscription.SubscriptionDuration" />
+                                        <input type="hidden" name="SubscriptionDate" value="@item.subscription.SubscriptionDate" />
+                                        <input type="hidden" name="UserAccountId" value="@item.subscription.UserAccountId" />
+                                        <input type="hidden" name="SubscriptionAmount" value="@item.subscription.SubscriptionAmount" />
+                                        <input type="submit" value="Accept" class="btn btn-primary" />
+                                    </div>
+                                </form>
+                                <hr>
+                                <form method="post" asp-action="Reject">
+                                    <div class="form-group">
+                                        <input type="hidden" name="id" value="@item.subscription.Id" />
+                                        <input type="hidden" name="SubscriptionDuration" value="@item.subscription.SubscriptionDuration" />
+                                        <input type="hidden" name="SubscriptionDate" value="@item.subscription.SubscriptionDate" />
+                                        <input type="hidden" name="UserAccountId" value="@item.subscription.UserAccountId" />
+                                        <input type="hidden" name="SubscriptionAmount" value="@item.subscription.SubscriptionAmount" />
+                                        <input type="submit" value="Reject" class="btn btn-primary" />
+                                    </div>
+                                </form>
+                            </td> *@
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+
+                        <th>number of subscried and Paid</th>
+                        <th>@ViewBag.CountSubscriptionsPaid</th>
+                        </tr>
+                        <tr>
+                        <th>number of subscried but not Paid</th>
+                        <th>@ViewBag.CountSubscriptionsNotPaid</th>
+                        </tr>
+                    <tr>
+                        <th>total profit</th>
+                        <th>@ViewBag.SubscriptionAmount</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js" defer></script>
+
+<script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js" defer></script>
+<script>
+    $(document).ready(function () {
+        $('#example1').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'copyHtml5',
+                'excelHtml5',
+                'csvHtml5',
+                'pdfHtml5'
+            ]
+        });
+    });
+</script>

@@ -1,0 +1,148 @@
+﻿@model Health_Insurance.Models.Home
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "AdminLayout";
+
+}
+@* 
+
+
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data" asp-controller="Homes">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <input hidden asp-for="LogoName" class="form-control" />
+    <h1 class="display-3 text-dark mb-4 animated slideInDown">
+        <input asp-for="Text1" class="form-control" />
+    </h1>
+    <p class="fs-5 text-body mb-5">
+        <input asp-for="Text2" class="form-control" />
+    </p>
+    <input hidden asp-for="Text3" class="form-control" />
+    <input hidden asp-for="Text4" class="form-control" />
+    <input hidden asp-for="EmailContactUsFooter" class="form-control" />
+    <input hidden asp-for="AboutUsTextFooter" class="form-control" />
+    <input hidden asp-for="PhoneNumberFooter" class="form-control" />
+    <input hidden asp-for="Image1" class="form-control" />
+    <input hidden asp-for="Image2" class="form-control" />
+    <input hidden asp-for="Image3" class="form-control" />
+    <input hidden asp-for="ImageFile1" class="form-control" />
+    <input hidden asp-for="ImageFile2" class="form-control" />
+    <input hidden asp-for="ImageFile3" class="form-control" />
+
+    <input type="submit" value="Save" class="btn btn-primary" />
+
+
+
+
+
+
+</form>
+ *@
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-secondary rounded h-100 p-4">
+
+                <div class="table-responsive">
+                    <h1>Home page</h1>
+
+                    <table class="table">
+
+                   <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group" hidden>
+                <label asp-for="LogoName" class="control-label"></label>
+                <input asp-for="LogoName" class="form-control" />
+                <span asp-validation-for="LogoName" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                 <label asp-for="ImageLogoFile" class="control-label"></label>
+                 <input asp-for="ImageLogoFile" class="form-control" />
+                 <span asp-validation-for="ImageLogoFile" class="text-danger"></span>
+             </div>
+            <div class="form-group">
+                <label asp-for="Text1" class="control-label"></label>
+                <input asp-for="Text1" class="form-control" />
+                <span asp-validation-for="Text1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Text2" class="control-label"></label>
+                <input asp-for="Text2" class="form-control" />
+                <span asp-validation-for="Text2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Text3" class="control-label"></label>
+                <input asp-for="Text3" class="form-control" />
+                <span asp-validation-for="Text3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Text4" class="control-label"></label>
+                <input asp-for="Text4" class="form-control" />
+                <span asp-validation-for="Text4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailContactUsFooter" class="control-label"></label>
+                <input asp-for="EmailContactUsFooter" class="form-control" />
+                <span asp-validation-for="EmailContactUsFooter" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AboutUsTextFooter" class="control-label"></label>
+                <input asp-for="AboutUsTextFooter" class="form-control" />
+                <span asp-validation-for="AboutUsTextFooter" class="text-danger"></span>
+            </div>
+                        
+            <div class="form-group">
+                <label asp-for="PhoneNumberFooter" class="control-label"></label>
+                <input asp-for="PhoneNumberFooter" class="form-control" />
+                <span asp-validation-for="PhoneNumberFooter" class="text-danger"></span>
+            </div>
+
+              <div class="form-group">
+                  <label asp-for="ImageFile1" class="control-label"></label>
+                  <input asp-for="ImageFile1" type="file" class="form-control" />
+                  <span asp-validation-for="ImageFile1" class="text-danger"></span>
+              </div>
+              <div class="form-group">
+                  <label asp-for="ImageFile2" class="control-label"></label>
+                  <input asp-for="ImageFile2" type="file" class="form-control" />
+                  <span asp-validation-for="ImageFile2" class="text-danger"></span>
+              </div>
+              <div class="form-group">
+                  <label asp-for="ImageFile3" class="control-label"></label>
+                  <input asp-for="ImageFile3" type="file" class="form-control" />
+                  <span asp-validation-for="ImageFile3" class="text-danger"></span>
+              </div>
+
+                <div hidden class="form-group">
+                <label asp-for="Image1" class="control-label"></label>
+                <input asp-for="Image1" class="form-control" />
+                <span asp-validation-for="Image1" class="text-danger"></span>
+            </div>
+                                    <div hidden class="form-group">
+                <label asp-for="Image2" class="control-label"></label>
+                <input asp-for="Image2" class="form-control" />
+                <span asp-validation-for="Image2" class="text-danger"></span>
+            </div>
+                                    <div hidden class="form-group">
+                <label asp-for="Image3" class="control-label"></label>
+                <input asp-for="Image3" class="form-control" />
+                <span asp-validation-for="Image3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+            <div>
+                                <a asp-action="Index">Back to List</a>
+
+            </div>
+        </form>
+        </table>
+    </div>
+</div>
+
+</div>
+</div>
+</div>

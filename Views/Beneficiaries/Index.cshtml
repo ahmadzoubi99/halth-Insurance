@@ -1,0 +1,110 @@
+﻿@model IEnumerable<Health_Insurance.Models.Beneficiary>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "AdminLayout";
+}
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-secondary rounded h-100 p-4">
+
+                <div class="table-responsive">
+                    <h1>All Beneficiaries</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Custmoer name</th>
+                <th>
+                @Html.DisplayNameFor(model => model.BeneficiaryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BeneficiaryRelation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BeneficiaryState)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.DateBeneficiary)
+            </th>
+            <th>ImageProof</th>
+           
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                  <td>
+                    @Html.DisplayFor(modelItem => item.Subscriptions.UserAccount.FullName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.BeneficiaryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BeneficiaryRelation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BeneficiaryState)
+                </td>
+                  <td>
+                    @Html.DisplayFor(modelItem => item.DateBeneficiary)
+                </td>
+                <td>
+                    <img src="@Url.Content("~/Images/" + item.BeneficiaryImageProof )" asp-append-version="true" width="100" height="100" />
+                </td>
+              <td>
+            <form method="post" asp-action="Accept">
+                <div class="form-group">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <input type="hidden" name="ImageFile" value="@item.ImageFile" />
+                    <input type="hidden" name="BeneficiaryImageProof" value="@item.BeneficiaryImageProof" />
+                    <input type="hidden" name="BeneficiaryName" value="@item.BeneficiaryName" />
+                    <input type="hidden" name="BeneficiaryRelation" value="@item.BeneficiaryRelation" />
+                    <input type="hidden" name="DateBeneficiary" value="@item.DateBeneficiary" />
+                    <input type="hidden" name="SubscriptionsId" value="@item.SubscriptionsId" />
+                    <input type="hidden" name="BeneficiaryState" value="@item.BeneficiaryState" />
+                    <input type="submit" value="Accept" class=" btn btn-success m-2" />
+                </div>
+
+            </form>
+            <hr>
+            <form method="post" asp-action="Reject">
+                <div class="form-group">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <input type="hidden" name="ImageFile" value="@item.ImageFile" />
+                    <input type="hidden" name="BeneficiaryImageProof" value="@item.BeneficiaryImageProof" />
+                    <input type="hidden" name="BeneficiaryName" value="@item.BeneficiaryName" />
+                    <input type="hidden" name="BeneficiaryRelation" value="@item.BeneficiaryRelation" />
+                    <input type="hidden" name="DateBeneficiary" value="@item.DateBeneficiary" />
+                    <input type="hidden" name="SubscriptionsId" value="@item.SubscriptionsId" />
+                    <input type="hidden" name="BeneficiaryState" value="@item.BeneficiaryState" />
+                    <input type="submit" value="Reject" class="btn btn-primary" />
+                </div>
+            </form>
+              </td>
+               
+            </tr>
+        }
+    </tbody>
+     <tfoot>
+         <tr>
+             <td>number of  Beneficiary Accepted</td>
+             <td>@ViewBag.CountBeneficiariesAccepted</td>
+         </tr>
+         <tr>
+              <td>number of  Beneficiary Waiting </td>
+              <td>@ViewBag.CountBeneficiarieswaiting</td>
+         </tr>  
+     </tfoot>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
