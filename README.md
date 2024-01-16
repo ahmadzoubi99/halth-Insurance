@@ -1,150 +1,99 @@
-# PharmaFinder
+# HealthCare Subscription System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.6 and [ASP.NET Core Web API](https://docs.microsoft.com/en-us/aspnet/core/web-api) for the backend.
+This project is designed to facilitate health insurance subscriptions for individuals and families. Users can subscribe once and gain access to health insurance services. The README provides details on objectives, user roles, workflow diagrams, functional requirements, system overview, interface design, rules, and project details.
 
-## Development server
+## 1. Introduction
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-# pharma-Finder
-
-...this is my read me content in the file in my project on GitHub. I have covered all the requirements in the project.
+This project aims to streamline the process of subscribing to health organizations, providing health insurance through a one-time subscription. The README provides essential information to understand and contribute to the project.
 
 ## 2. Objectives
 
-Many people find it difficult to know where to buy medicine. Therefore, this site was designed to facilitate the process of searching for a pharmacy to buy medicine and scan medical prescriptions.
+Many people seek health insurance for themselves and their families. This website is designed to meet this need by providing a user-friendly platform for one-time health insurance subscriptions. The document includes sections on user roles, workflow diagrams, and functional requirements.
 
-### 2.1 Objectives
+### 2.1 User Roles
 
-This document contains the following sections:
+- **Admin**
+  - Manages user registrations.
+  - Accepts or rejects user requests to add new beneficiaries.
+  - Reviews monthly and annual reports on the site's performance.
+  - Manages site pages (Home, About Us, Contact Us, Testimonial).
 
-- User roles.
-- Workflow diagrams.
-- Functional requirements.
+- **User**
+  - Subscribes to the service and pays once.
+  - Receives an invoice via email as a PDF document.
+  - Requests to add beneficiaries after uploading proof documents.
+  - Waits for admin approval.
+  - Receives a new subscription document via email upon request approval.
+  - Adds testimonials.
+  - Manages user profile.
+
+- **Guest User**
+  - Visits the website.
+  - Asks questions or seeks clarification.
 
 ## 3. System Overview
 
-The system is an integrated software developed to search for a pharmacy to buy medicine and scan medical prescriptions. It is a dynamic and responsive system. This provides an easy way to find the nearest pharmacy and an easy way to buy medicine.
+The system is a dynamic and responsive program developed to facilitate medical care subscriptions. It includes features such as subscribing to organizations, adding requests, and generating reports and statistics.
 
-The system consists of the following main parts:
+### 3.1 Functional Requirements
 
-- Scan pdf file and search using Map.
-- Deposit and withdraw money.
-- Reports and Statistics.
-
-## 4. User Roles
-
-### 4.1 Admin
-
-The admin user is responsible for managing the system, keeping track of medicines, their types, and the locations of pharmacies.
-
-### 4.2 User
-
-The user browses the site, searches for the nearest pharmacy on the map, and scans the medical prescriptions file to buy medicine.
-
-## 5. Functional Requirements
-
-### 5.1 Admin
+#### 3.1.1 Admin
 
 - Login.
-- Statistics on the number of registered users.
-- Manage pharmacies on the map (CURD).
-- Manage medicine (CURD).
-- View details of registered users.
-- Search between two dates in reservation during this period.
-- Acceptance and rejection of ordering medicine.
-- View and update the profile.
-- Obtain monthly and annual reports showing the number of users who made reservations and the date of submitting this request.
-- Manage pages (Home, about us, Contact us, Testimonials).
+- View statistics on registered users and subscriptions.
+- Accept or reject user-added requests.
+- View user details.
+- Search subscriptions within a specified period.
+- View and update admin profile.
+- Accept or reject user testimonials.
+- Obtain monthly and annual reports on total benefits based on subscriptions.
+- Manage site pages.
 
-### 5.2 User
+#### 3.1.2 User
 
-- Register and log in to the system.
-- View all pharmacies on the map.
-- Search for the name of the pharmacies.
-- Scan medical prescriptions PDF file.
-- Make an order to buy medicine using visa.
-- Send the invoice via email as a PDF file.
-- Download the invoice as a PDF file.
-- View and update the profile.
+- Register and log in.
+- Pay for a one-time subscription.
+- Receive an invoice via email.
+- View and download the invoice.
+- Request to add beneficiaries after uploading proof documents.
+- Wait for admin approval.
+- Receive a new subscription document via email upon request approval.
+- Add testimonials.
+- View and update user profile.
 
-## 6. Interface Design
+## 5. Interface Design
 
-- Use the Bootstrap template to prepare the home page.
-- Use recognized colors in the design.
-- Implement Search by name and interval.
-- Display the report on the website and document.
-- The report must contain charts.
-- Use a dashboard template for different users.
-- Design users' sessions.
-- Home Page must contain reviews, testimonials, about us, contact us, header, footer, and background or slider.
-- Each part in the home must change dynamically using the Database.
+- Use Bootstrap for home page preparation.
+- Employ recognized colors in the design.
+- Implement search by name and interval.
+- Display reports on the website.
+- Utilize a dashboard template for different users.
+- Design user sessions.
+- Home page includes reviews, testimonials, about us, contact us, header, footer, and dynamic content from the database.
 
-## 7. Rules
+## 6. Rules
 
-- Follow the rules of clean code.
-- Adhere to the rules of the business.
-- Design the logout button.
-- Keep the project name.
+- Adhere to clean code principles.
+- Follow business rules.
+- Include a logout button.
+- Maintain the project name.
 
-## 8. Project Programming Language and Technologies
+## 7. Project Programming Language and Technologies
 
-- Use Visual Studio 2022.
+- Visual Studio 2022.
 - Oracle Server.
-- Use SQL Developer.
-- Use ASP.NET Core Web API.
-- Use Angular.
+- SQL Developer.
+- ASP.NET MVC.
 
-**Note:** Make sure to replace "X.X.X" with the actual version number, and provide specific details for each section mentioned above.
+## 8. Project Upload Requirements
 
-## 9. Database Design
+- Upload project code.
+- Upload project presentation (advertising presentation).
+- Upload project video.
 
-[Include details about the database schema, tables, relationships, and key fields here.]
+## 9. Project Evaluation
 
-## 10. Deployment Instructions
+- 15% for the project video and presentation.
+- 35% for interface design.
+- 50% for code functionality.
 
-[Provide instructions on how to deploy the application, including any configurations and dependencies.]
-
-## 11. Testing Instructions
-
-[Include information on how to run unit tests and end-to-end tests, along with any test data needed.]
-
-## 12. License Information
-
-[Specify the license under which the project is released.]
-
-## 13. Collaboration Guidelines
-
-[If applicable, outline guidelines for contributions, code reviews, and issue tracking.]
-
-## 14. Continuous Integration/Continuous Deployment (CI/CD)
-
-[If you have set up CI/CD, include information on how it works and any configurations that others might need.]
-
-## 15. Documentation Link
-
-[Include a link to additional documentation or resources if available.]
-
----
-
-Remember to update this README file as your project evolves and provide accurate and detailed information for each section. A well-documented README is crucial for users and contributors to understand and work with your project effectively.
