@@ -1,10 +1,10 @@
 # HealthCare Subscription System
 
-This project is designed to facilitate health insurance subscriptions for individuals and families. Users can subscribe once and gain access to health insurance services. The README provides details on objectives, user roles, workflow diagrams, functional requirements, system overview, interface design, rules, and project details.
+This project is designed to facilitate health insurance subscriptions for individuals and families. Users can subscribe once and gain access to health insurance services. The README provides essential information to understand and contribute to the project.
 
 ## 1. Introduction
 
-This project aims to streamline the process of subscribing to health organizations, providing health insurance through a one-time subscription. The README provides essential information to understand and contribute to the project.
+This project aims to streamline the process of subscribing to health organizations, providing health insurance through a one-time subscription. The README provides details on objectives, user roles, workflow diagrams, functional requirements, system overview, interface design, rules, project details, and technologies used.
 
 ## 2. Objectives
 
@@ -78,22 +78,9 @@ The system is a dynamic and responsive program developed to facilitate medical c
 - Include a logout button.
 - Maintain the project name.
 
-## 7. Project Programming Language and Technologies
+## 7. Technologies Used
 
 - Visual Studio 2022.
 - Oracle Server.
 - SQL Developer.
 - ASP.NET MVC.
-
-## 8. Project Upload Requirements
-
-- Upload project code.
-- Upload project presentation (advertising presentation).
-- Upload project video.
-
-## 9. Project Evaluation
-
-- 15% for the project video and presentation.
-- 35% for interface design.
-- 50% for code functionality.
-
